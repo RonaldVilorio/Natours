@@ -16,12 +16,14 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: #777;
+  padding: 30px;
 }
 
 .header-box {
   height: 90vh;
-  background-image: linear-gradient(to right bottom, rgba(144, 238, 144, 0.4), rgba(173, 216, 230, 0.4)), url("../img/hero.jpg");
+  background-image: linear-gradient(to right bottom, rgba(144, 238, 144, 0.4), rgba(173, 216, 230, 0.6)), url("../img/hero.jpg");
   background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,10 +3,10 @@
 .header-box{
     height: 90vh;
     background-image: 
-    linear-gradient(to right bottom, rgb(lightgreen,0.4),rgb(lightblue,0.4)),
+    linear-gradient(to right bottom, rgb(lightgreen,0.4),rgb(lightblue,0.6)),
     url("../img/hero.jpg");
-    background-position: top;
-    
+    background-position: top; 
+    clip-path:polygon(0 0, 100% 0,100% 85%,0 100%);  
 }
 
 
